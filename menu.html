@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="script.js"></script>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+<body>
+<div style="margin-top: 3%;">
+
+
+  <div>
+<button id="mainmenu1" onclick="getData('mainmenu1')" class="accordion"></button>
+</div>
+<div>
+<button id="mainmenu2" onclick="myFunction('Demo2')" class="accordion"></button>
+</div>
+<div id="Demo2" class="panel">
+  <button id ="nestmenu" onclick="getData('nestmenu')" class="accordion-inside"></button>
+  <button id ="nestmenu2" onclick="myFunction('Demolow')" class="accordion-inside"></button>
+  <div id="Demolow"  class="panel">
+    <button id ="lowmenu1" onclick="getData('lowmenu1')" class="inside"></button>
+    <button id ="lowmenu2" onclick="getData('lowmenu2')" class="inside"></button>
+    <button id ="lowmenu3" onclick="getData('lowmenu3')" class="inside"></button>
+  </div>
+</div>
+</div>
+<div id="mainData" class="main">
+  
+</div>
+
+</body>
+</html>
